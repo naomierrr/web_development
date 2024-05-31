@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naomi(Ming) Chen</title>
+    <style>
+        h1 {
+            color: deeppink;
+            background-color: aqua;
+            text-align: center;
+        }
+
+        h2 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        #js {
+            color: chartreuse;
+            background-color: brown;
+            width: 100px;
+        }
+
+        p.intro {
+            background-color: aliceblue;
+        }
+
+        .msg {
+            background-color: chocolate;
+        }
+
+        /* --- table ---*/
+        .table1 {
+            background-color: honeydew;
+            border: dashed 3px olive;
+            width: 300px;
+            margin: auto;
+
+        }
+
+        .table1 td {
+            border-top: gray dotted 1px;
+            text-align: center;
+        }
+
+        /* --- margin --- */
+        .cat_intro {
+            background-color: coral;
+            margin: 100px;
+        }
+
+        .cat_intro2 {
+            background-color: coral;
+            margin-left: 200px;
+        }
+
+        .cat_intro3 {
+            background-color: coral;
+            margin: 150px 50px;
+        }
+
+        .cat_intro4 {
+            background-color: coral;
+            margin: 80px 120px 0px 20px;
+        }
+
+        /* --- padding --- */
+        .padding1,
+        .padding2,
+        .padding3,
+        .padding4 {
+            background-color: coral;
+        }
+
+        .padding1 {
+            padding: 50px;
+        }
+
+        .padding2 {
+            padding: 20px 80px;
+        }
+
+        .padding3 {
+            padding: 60px 30px 100px 0;
+        }
+
+        .padding4 {
+            padding-bottom: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>padding</h1>
+    <p>Padding is the distance within, inside, the box or element</p>
+    <div class="padding1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quod at, repellendus eaque
+        cumque ipsa illum numquam quia commodi id laborum! Voluptates voluptatem ipsam dolorum temporibus provident vel
+        quos assumenda?</div>
+    <hr>
+    <div class="padding2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quod at, repellendus eaque
+        cumque ipsa illum numquam quia commodi id laborum! Voluptates voluptatem ipsam dolorum temporibus provident vel
+        quos assumenda?</div>
+    <hr>
+    <div class="padding3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quod at, repellendus eaque
+        cumque ipsa illum numquam quia commodi id laborum! Voluptates voluptatem ipsam dolorum temporibus provident vel
+        quos assumenda?</div>
+    <hr>
+    <div class="padding4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quod at, repellendus eaque
+        cumque ipsa illum numquam quia commodi id laborum! Voluptates voluptatem ipsam dolorum temporibus provident vel
+        quos assumenda?</div>
+
+
+    <h1>margin</h1>
+    <p>margin is the distance outside the box</p>
+    <!--create a tabke of 4 rows and three colums in each row-->
+    <div class="cat_intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quod at, repellendus eaque
+        cumque ipsa illum numquam quia commodi id laborum! Voluptates voluptatem ipsam dolorum temporibus provident vel
+        quos assumenda?</div>
+    <hr>
+    <div class="cat_intro2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quod at, repellendus eaque
+        cumque ipsa illum numquam quia commodi id laborum! Voluptates voluptatem ipsam dolorum temporibus provident vel
+        quos assumenda?</div>
+    <hr>
+    <div class="cat_intro3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quod at, repellendus eaque
+        cumque ipsa illum numquam quia commodi id laborum! Voluptates voluptatem ipsam dolorum temporibus provident vel
+        quos assumenda?</div>
+    <hr>
+    <div class="cat_intro4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quod at, repellendus eaque
+        cumque ipsa illum numquam quia commodi id laborum! Voluptates voluptatem ipsam dolorum temporibus provident vel
+        quos assumenda?</div>
+
+
+    <h1>Inline element</h1>
+    <span class="msg">This is an inline element</span>
+    <h1>Tables</h1>
+    <table class="table1">
+        <tr>
+            <th colspan="3" align="center">
+                Simple table
+            </th>
+        </tr>
+        <tr>
+            <td> cell 1</td>
+            <td> cell 2</td>
+            <td> cell 3</td>
+        </tr>
+        <tr>
+            <td> cell 4</td>
+            <td rowspan="2"> cell 5</td>
+            <td> cell 6</td>
+        </tr>
+        <tr>
+            <td> cell 7</td>
+            <td> cell 9</td>
+        </tr>
+        <tr>
+            <td> cell 10</td>
+            <td> cell 11</td>
+            <td> cell 12</td>
+        </tr>
+    </table>
+
+    <h1>Insert media</h1>
+    <h2>Youtube video </h2>
+    <!--open youtube video, right click the video and then click ""copy embed code"", paste here -->
+    <!--width and height are adjustable, also title-->
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/ESPReJNEBqw"
+        title="MATT RIFE ISN’T BUILT FOR PRISON | Crowd Work Compilation" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h2>Google map</h2>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12089.201636232898!2d-73.757401!3d40.755417!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c261fb05968f07%3A0x49ff66ba1d2376bd!2sQueensborough%20Community%20College!5e0!3m2!1sen!2sus!4v1717107895796!5m2!1sen!2sus"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <h1>List</h1>
+    <h2>Unordered list</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li id="js">Javascript</li>
+        <ul>
+            <li>JQuery</li>
+            <li>ReactJS</li>
+        </ul>
+    </ul>
+
+    <h2>Ordered list</h2>
+    <ol start="5">
+        <li>Complete examples</li>
+        <li>Sumbit assignment</li>
+        <li id="js">get the grade</li>
+    </ol>
+
+    <h2>Description or definition list</h2>
+    <dl>
+        <dt>What is HTML?</dt> <!--description title-->
+        <dd>The Hyperlink MarkUp language uses to create the website structure</dd> <!--data-->
+    </dl>
+
+
+</body>
+
+</html>
