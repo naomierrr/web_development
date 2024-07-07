@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furry Paw</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://kit.fontawesome.com/ec6c847f3d.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logoContent">
+            <a href="#" class="logo"><img src="images/pawicon.png" alt=""></a>
+            <h1 class="logoName">Furry Paw</h1>
+        </div>
+        <nav class="navbar">
+            <a href="#home">HOME</a>
+            <a href="#cat">CATS</a>
+            <a href="#story">STORY</a>
+            <a href="#subscribe">SUBSCRIBE</a>
+            <a href="#review">REVIEW</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+        <div class="icon">
+            <i class="fa-solid fa-magnifying-glass" id="search"></i>
+            <div class="icon-cart">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                    viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312" />
+                </svg>
+                <span class="red-dot">0</span>
+            </div>
+            <!--<i class="fa-solid fa-cart-shopping"></i>-->
+            <i class="fa-solid fa-bars" id="menu-bar"></i>
+        </div>
+        <div class="search">
+            <input type="search" placeholder="search...">
+        </div>
+    </header>
+    <section class="home" id="home">
+        <div class="homeContent">
+            <h2>Find your best friend</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ducimus, possimus vitae minima deserunt
+                soluta repellat consectetur dolore excepturi unde ut.</p>
+            <div class="home-btn">
+                <a href="#"><button>see more</button></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cat" id="cat">
+        <div class="heading">
+            <h2>Our lovely cats</h2>
+        </div>
+        <div class="swiper cat-row">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="images/cat5 copy.jpg" alt="">
+                    </div>
+                    <div class="cat-content">
+                        <h3>Bomba</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex pariatur architecto veritatis
+                            voluptate.</p>
+                        <p class="price">$2,500</p>
+                        <div class="reserveNow">
+                            <button class="add-to-cart" data-id="1" data-name="Bomba" data-price="2500.00"
+                                data-image="images/cat5 copy.jpg">Add to Cart</button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="images/cat1.jpg" alt="">
+                    </div>
+                    <div class="cat-content">
+                        <h3>Popeye</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex pariatur architecto veritatis
+                            voluptate.</p>
+                        <p class="price">$2,000</p>
+                        <div class="reserveNow">
+                            <button class="add-to-cart" data-id="2" data-name="Popeye" data-price="2000.00"
+                            data-image="images/cat1.jpg">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="images/cat3.jpg" alt="">
+                    </div>
+                    <div class="cat-content">
+                        <h3>Peach</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex pariatur architecto veritatis
+                            voluptate. </p>
+                        <p class="price">$2,600</p>
+                        <div class="reserveNow">
+                            <button class="add-to-cart" data-id="3" data-name="Peach" data-price="2600.00"
+                            data-image="images/cat3.jpg">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="images/cat4.jpg" alt="">
+                    </div>
+                    <div class="cat-content">
+                        <h3>Wild</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex pariatur architecto veritatis
+                            voluptate.</p>
+                        <p class="price">$2,300</p>
+                        <div class="reserveNow">
+                            <button class="add-to-cart" data-id="4" data-name="Wild" data-price="2300.00"
+                            data-image="images/cat4.jpg">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="swiper cat-row">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="images/cat5 copy.jpg" alt="">
+                    </div>
+                    <div class="cat-content">
+                        <h3>Bomba</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex pariatur architecto veritatis
+                            voluptate.</p>
+                        <p class="price">$2,350</p>
+                        <div class="reserveNow">
+                            <button class="add-to-cart" data-id="5" data-name="Bomba" data-price="2350.00"
+                                data-image="images/cat5 copy.jpg">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="images/cat1.jpg" alt="">
+                    </div>
+                    <div class="cat-content">
+                        <h3>Popeye</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex pariatur architecto veritatis
+                            voluptate.</p>
+                        <p class="price">$2,480</p>
+                        <div class="reserveNow">
+                            <button class="add-to-cart" data-id="6" data-name="Product Name" data-price="2480.00"
+                            data-image="images/cat1.jpg">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="images/cat3.jpg" alt="">
+                    </div>
+                    <div class="cat-content">
+                        <h3>Peach</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex pariatur architecto veritatis
+                            voluptate. </p>
+                        <p class="price">$2,200</p>
+                        <div class="reserveNow">
+                            <button class="add-to-cart" data-id="7" data-name="Peach" data-price="2200.00"
+                            data-image="images/cat3.jpg">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="images/cat4.jpg" alt="">
+                    </div>
+                    <div class="cat-content">
+                        <h3>Wild</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex pariatur architecto veritatis
+                            voluptate.</p>
+                        <p class="price">$2,100</p>
+                        <div class="reserveNow">
+                            < <button class="add-to-cart" data-id="8" data-name="Wild" data-price="2100.00"
+                            data-image="images/cat4.jpg">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="story" id="story">
+
+        <div class="swiper story-row">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="images/cat15.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>What makes our cat special?</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates sequi doloremque animi
+                            aliquid nobis labore, quisquam magnam autem accusamus nam modi quaerat aperiam, repellat
+                            delectus assumenda minima odio dolorem iure.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum laborum facilis, ea aliquam
+                            nemo
+                            voluptates ipsum veritatis.</p>
+                        <a href="#story" class="btn">learn more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="images/cat12.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>What makes our cat special?</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates sequi doloremque animi
+                            aliquid nobis labore, quisquam magnam autem accusamus nam modi quaerat aperiam, repellat
+                            delectus assumenda minima odio dolorem iure.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum laborum facilis, ea aliquam
+                            nemo
+                            voluptates ipsum veritatis.</p>
+                        <a href="#story" class="btn">learn more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="images/cat11.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>What makes our cat special?</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates sequi doloremque animi
+                            aliquid nobis labore, quisquam magnam autem accusamus nam modi quaerat aperiam, repellat
+                            delectus assumenda minima odio dolorem iure.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum laborum facilis, ea aliquam
+                            nemo
+                            voluptates ipsum veritatis.</p>
+                        <a href="#story" class="btn">learn more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="images/cat10.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>What makes our cat special?</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates sequi doloremque animi
+                            aliquid nobis labore, quisquam magnam autem accusamus nam modi quaerat aperiam, repellat
+                            delectus assumenda minima odio dolorem iure.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum laborum facilis, ea aliquam
+                            nemo
+                            voluptates ipsum veritatis.</p>
+                        <a href="#story" class="btn">learn more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="subscribe" id="subscribe">
+        <form action="">
+            <h3>Subscribe for more cats info</h3>
+            <input type="email" placeholder="Enter your email" class="box">
+            <input type="button" value="subscribe" class="box2">
+        </form>
+    </section>
+
+    <section class="review" id="review">
+        <div class="heading">
+            <h2>Clients Review</h2>
+        </div>
+        <div class="swiper review-row">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="client-review">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cum quisquam iusto.</p>
+                    </div>
+                    <div class="client-info">
+                        <div class="img">
+                            <img src="images/review1.jpg" alt="">
+                        </div>
+                        <div class="clientName">
+                            <h3>Tia Haines</h3>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="client-review">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cum quisquam iusto.</p>
+                    </div>
+                    <div class="client-info">
+                        <div class="img">
+                            <img src="images/review2.jpg" alt="">
+                        </div>
+                        <div class="clientName">
+                            <h3>Chole Munoz</h3>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="client-review">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cum quisquam iusto.</p>
+                    </div>
+                    <div class="client-info">
+                        <div class="img">
+                            <img src="images/review3.jpg" alt="">
+                        </div>
+                        <div class="clientName">
+                            <h3>Emily EI</h3>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="client-review">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cum quisquam iusto.</p>
+                    </div>
+                    <div class="client-info">
+                        <div class="img">
+                            <img src="images/review4.jpg" alt="">
+                        </div>
+                        <div class="clientName">
+                            <h3>Rachel</h3>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <!--
+    <section>
+        <div class="cartTab">
+            <h1>Shopping cart</h1>
+            <div class="listCart">
+                <div class="item">
+                    <div class="image">
+                        <img src="images/cat1.jpg" alt="">
+                    </div>
+                    <div class="name">NAME</div>
+                    <div class="totalPrice">$2,500</div>
+                    <div class="quantity">
+                        <span class="minus">&lt;</span>
+                        <span>1</span>
+                        <span class="plus">&gt;</span>
+                    </div>
+                </div>
+            </div>
+            <div class="btn">
+                <button class="close">CLOSE</button>
+                <button class="checkOut">CHECKOUT</button>
+            </div>
+        </div>
+    </section>
+   
+    <div class="cart-overlay" id="cart-overlay">
+        <div class="cart">
+            <span class="close-cart" id="close-cart">
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </span>
+            <h2>Your Cart</h2>
+            <div class="cart-content" id="cart-content">
+               
+            </div>
+            <div class="cart-footer">
+                <h3>Total: $<span class="cart-total" id="cart-total">0</span></h3>
+                <button class="clear-cart" id="clear-cart">Clear Cart</button>
+            </div>
+        </div>
+    </div>
+-->
+    <section class="cartTab">
+        <h1>Shopping Cart</h1>
+        <div class="listCart" id="cart-content">
+            <!-- Cart items will be inserted here dynamically -->
+        </div>
+        <div class="btn">
+            <button class="close" id="close-cart">CLOSE</button>
+            <button class="checkOut">CHECKOUT</button>
+        </div>
+    </section>
+
+    <div class="cart-overlay" id="cart-overlay">
+        <div class="cart">
+            <span class="close-cart" id="close-cart-overlay">
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </span>
+            <h2>Your Cart</h2>
+            <div class="cart-content" id="cart-content-overlay">
+                <!-- Cart items will be inserted here dynamically -->
+            </div>
+            <div class="cart-footer">
+                <h3>Total: $<span class="cart-total" id="cart-total">0</span></h3>
+                <button class="clear-cart" id="clear-cart">Clear Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer" id="contact">
+        <div class="box-container">
+            <div class="mainBox">
+                <div class="content">
+                    <a href="#"><img src="images/pawicon.png" alt=""></a>
+                    <h1 class="logoName">Furry Paw</h1>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus asperiores porro, earum, beatae
+                    recusandae officiis repellendus.</p>
+
+            </div>
+            <div class="box">
+                <h3>Quick Link</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i>Home</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Cats</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Story</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Subscribe</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Review</a>
+            </div>
+            <div class="box">
+                <h3>Extra Link</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i>Account Info</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Reserve Cat</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Privicy Policy</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Payment Method</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Our Services</a>
+            </div>
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#"><i class="fas fa-phone"></i>123-456-7891</a>
+                <a href="#"><i class="fas fa-envelope"></i>furrypaw@wonderland.com</a>
+
+            </div>
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+        <div class="credit">
+            created by <span>Naomi Chen</span>
+
+        </div>
+
+    </footer>
+
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
